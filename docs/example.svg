@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 656" width="900" height="656" role="img" aria-label="example output of claude-usage report" shape-rendering="geometricPrecision">
+  <rect x="0" y="0" width="900" height="656" rx="16" fill="#F6F3EC" stroke="#D9D3C7" stroke-width="1"/>
+  <rect x="20" y="20" width="860" height="616" rx="10" fill="#1F2A44"/>
+  <circle cx="40" cy="42" r="5" fill="#E0564B"/>
+  <circle cx="56" cy="42" r="5" fill="#F5C542"/>
+  <circle cx="72" cy="42" r="5" fill="#2BB3A3"/>
+  <g font-family="Menlo, Consolas, DejaVu Sans Mono, Liberation Mono, monospace" font-size="14" fill="#F6F3EC" style="white-space:pre">
+    <text xml:space="preserve" style="white-space:pre" x="44" y="78">$ claude-usage report</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="100">Claude usage, 2026-11-01 to today (UTC)</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="122" fill="#F5C542">5,863,660 tokens, $10.32 at API prices, 3 devices</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="166" font-weight="700">By device</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="188">  laptop        3,939,280   67.2%  $    7.96</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="210">  desktop       1,482,510   25.3%  $    1.79</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="232">  server          441,870    7.5%  $    0.57</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="276" font-weight="700">By model</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="298">  claude-sonnet-5-5       5,141,430   87.7%  $    6.20</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="320">  claude-opus-5-5           722,230   12.3%  $    4.12</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="364" font-weight="700">By project (Claude Code only)</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="386">  laptop:/home/sam/projects/garden-planner       3,217,050   54.9%</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="408">  desktop:/home/sam/notes                        1,482,510   25.3%</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="430">  laptop:/home/sam/projects/bird-log               722,230   12.3%</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="452">  server:/home/sam/projects/bird-log               441,870    7.5%</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="496" font-weight="700">By day</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="518">  2026-11-05         441,870    7.5%  $    0.57</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="540">  2026-11-06       5,421,790   92.5%  $    9.75</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="584" fill="#8A94A6">claude.ai web, desktop and mobile usage shares the same account but writes no</text>
+    <text xml:space="preserve" style="white-space:pre" x="44" y="606" fill="#8A94A6">local logs, so it is absent here. Check /usage in Claude Code for the account total.</text>
+  </g>
+  <circle cx="50" cy="183" r="4" fill="#2BB3A3"/>
+  <circle cx="50" cy="205" r="4" fill="#F28C38"/>
+  <circle cx="50" cy="227" r="4" fill="#8B6FD6"/>
+  <circle cx="50" cy="381" r="4" fill="#2BB3A3"/>
+  <circle cx="50" cy="403" r="4" fill="#F28C38"/>
+  <circle cx="50" cy="425" r="4" fill="#2BB3A3"/>
+  <circle cx="50" cy="447" r="4" fill="#8B6FD6"/>
+</svg>

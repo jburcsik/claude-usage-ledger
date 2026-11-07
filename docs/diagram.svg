@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="how claude-usage-ledger works" shape-rendering="geometricPrecision" font-family="Avenir Next, Avenir, Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">
+  <defs>
+    <marker id="ah-teal" viewBox="0 0 10 10" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2BB3A3"/></marker>
+    <marker id="ah-orange" viewBox="0 0 10 10" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#F28C38"/></marker>
+    <marker id="ah-purple" viewBox="0 0 10 10" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#8B6FD6"/></marker>
+    <marker id="ah-ink" viewBox="0 0 10 10" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2A44"/></marker>
+  </defs>
+
+  <!-- 1 background -->
+  <rect x="0" y="0" width="900" height="420" rx="16" fill="#F6F3EC" stroke="#D9D3C7" stroke-width="1"/>
+  <!-- 2 title -->
+  <text x="450" y="36" text-anchor="middle" font-size="20" fill="#1F2A44">how claude-usage-ledger works</text>
+
+  <!-- 3-4 laptop -->
+  <rect x="40" y="82" width="80" height="50" rx="6" fill="#2BB3A3"/>
+  <rect x="46" y="88" width="68" height="38" rx="3" fill="#1F2A44"/>
+  <rect x="32" y="132" width="96" height="8" rx="4" fill="#2BB3A3"/>
+  <text x="136" y="104" font-size="15" fill="#1F2A44">laptop</text>
+  <text x="136" y="122" font-size="12" fill="#5C6678">garden-planner</text>
+
+  <!-- 5-6 desktop -->
+  <rect x="40" y="180" width="80" height="56" rx="6" fill="#F28C38"/>
+  <rect x="46" y="186" width="68" height="44" rx="3" fill="#1F2A44"/>
+  <rect x="74" y="236" width="12" height="12" fill="#F28C38"/>
+  <rect x="56" y="248" width="48" height="6" rx="3" fill="#F28C38"/>
+  <text x="136" y="209" font-size="15" fill="#1F2A44">desktop</text>
+  <text x="136" y="227" font-size="12" fill="#5C6678">recipe-box</text>
+
+  <!-- 7-8 server -->
+  <rect x="56" y="282" width="48" height="76" rx="6" fill="#8B6FD6"/>
+  <rect x="64" y="292" width="32" height="6" fill="#1F2A44"/>
+  <rect x="64" y="304" width="32" height="6" fill="#1F2A44"/>
+  <rect x="64" y="316" width="32" height="6" fill="#1F2A44"/>
+  <circle cx="94" cy="346" r="3" fill="#F5C542"/>
+  <text x="136" y="314" font-size="15" fill="#1F2A44">server</text>
+  <text x="136" y="332" font-size="12" fill="#5C6678">train-times</text>
+
+  <!-- 9 daily note, on the middle arrow -->
+  <text x="307" y="197" text-anchor="middle" font-size="12" fill="#5C6678">daily job, one file</text>
+
+  <!-- 10-12 arrows into the repo -->
+  <line x1="262" y1="107" x2="352" y2="150" stroke="#2BB3A3" stroke-width="3" marker-end="url(#ah-teal)"/>
+  <line x1="262" y1="210" x2="352" y2="210" stroke="#F28C38" stroke-width="3" marker-end="url(#ah-orange)"/>
+  <line x1="262" y1="313" x2="352" y2="270" stroke="#8B6FD6" stroke-width="3" marker-end="url(#ah-purple)"/>
+
+  <!-- 13-15 repo box -->
+  <rect x="360" y="70" width="240" height="280" rx="14" fill="#FFFFFF" stroke="#F5C542" stroke-width="4"/>
+  <text x="480" y="100" text-anchor="middle" font-size="16" fill="#1F2A44">git repo</text>
+  <text x="480" y="118" text-anchor="middle" font-size="12" fill="#5C6678">one commit a day per machine</text>
+
+  <!-- 16-18 laptop row -->
+  <rect x="380" y="136" width="10" height="5" fill="#2BB3A3"/>
+  <rect x="380" y="140" width="26" height="20" rx="2" fill="#2BB3A3"/>
+  <text x="416" y="155" font-family="Menlo, Consolas, monospace" font-size="13" fill="#1F2A44">data/laptop/</text>
+  <rect x="540" y="141" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+  <rect x="556" y="141" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+  <rect x="572" y="141" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+
+  <!-- 19-21 desktop row -->
+  <rect x="380" y="196" width="10" height="5" fill="#F28C38"/>
+  <rect x="380" y="200" width="26" height="20" rx="2" fill="#F28C38"/>
+  <text x="416" y="215" font-family="Menlo, Consolas, monospace" font-size="13" fill="#1F2A44">data/desktop/</text>
+  <rect x="540" y="201" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+  <rect x="556" y="201" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+  <rect x="572" y="201" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+
+  <!-- 22-24 server row -->
+  <rect x="380" y="256" width="10" height="5" fill="#8B6FD6"/>
+  <rect x="380" y="260" width="26" height="20" rx="2" fill="#8B6FD6"/>
+  <text x="416" y="275" font-family="Menlo, Consolas, monospace" font-size="13" fill="#1F2A44">data/server/</text>
+  <rect x="540" y="261" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+  <rect x="556" y="261" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+  <rect x="572" y="261" width="14" height="18" rx="2" fill="#F5C542" stroke="#1F2A44" stroke-width="1"/>
+
+  <!-- 25-26 repo captions -->
+  <text x="556" y="302" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#5C6678">2026-11-05.json ...</text>
+  <text x="480" y="332" text-anchor="middle" font-size="12" fill="#5C6678">small JSON files, kept in git</text>
+
+  <!-- 27-28 pull arrow -->
+  <line x1="604" y1="165" x2="668" y2="158" stroke="#1F2A44" stroke-width="3" marker-end="url(#ah-ink)"/>
+  <text x="636" y="150" text-anchor="middle" font-size="12" fill="#5C6678">git pull</text>
+
+  <!-- 29-30 right laptop -->
+  <rect x="680" y="128" width="80" height="50" rx="6" fill="#2BB3A3"/>
+  <rect x="686" y="134" width="68" height="38" rx="3" fill="#1F2A44"/>
+  <rect x="672" y="178" width="96" height="8" rx="4" fill="#2BB3A3"/>
+  <text x="776" y="150" font-size="15" fill="#1F2A44">any machine</text>
+  <text x="776" y="168" font-size="12" fill="#5C6678">runs report</text>
+
+  <!-- 31-36 terminal card -->
+  <rect x="660" y="200" width="220" height="150" rx="10" fill="#1F2A44"/>
+  <text x="672" y="224" font-family="Menlo, Consolas, monospace" font-size="12" fill="#F6F3EC">$ claude-usage report</text>
+  <text x="672" y="250" font-family="Menlo, Consolas, monospace" font-size="12" fill="#F6F3EC" xml:space="preserve">laptop   1.2M</text>
+  <text x="672" y="268" font-family="Menlo, Consolas, monospace" font-size="12" fill="#F6F3EC" xml:space="preserve">desktop  3.4M</text>
+  <text x="672" y="286" font-family="Menlo, Consolas, monospace" font-size="12" fill="#F6F3EC" xml:space="preserve">server   0.4M</text>
+  <circle cx="856" cy="246" r="4" fill="#2BB3A3"/>
+  <circle cx="856" cy="264" r="4" fill="#F28C38"/>
+  <circle cx="856" cy="282" r="4" fill="#8B6FD6"/>
+  <text x="672" y="308" font-family="Menlo, Consolas, monospace" font-size="12" fill="#F5C542" xml:space="preserve">total    5.0M</text>
+  <text x="672" y="334" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E0564B">server quiet 5 days</text>
+
+  <!-- 37 footer -->
+  <text x="450" y="401" text-anchor="middle" font-size="13" fill="#5C6678">Claude Code deletes transcripts after 30 days by default. The day files are the only history.</text>
+</svg>

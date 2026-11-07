@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-usage-ledger"
+version = "0.1.0"
+description = "Record Claude Code usage per machine as one JSON file per day in git, and report where the tokens went."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/jburcsik/claude-usage-ledger"
+
+[project.scripts]
+claude-usage = "claude_usage:main"
+
+[tool.setuptools]
+py-modules = ["claude_usage"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100

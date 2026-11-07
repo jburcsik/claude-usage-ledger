@@ -1,0 +1,7 @@
+claude-usage.toml
+sync.log
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
